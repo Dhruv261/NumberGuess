@@ -18,6 +18,8 @@ document.querySelector('.again').addEventListener('click', function(){
     // document.querySelector('.highscore') = highscore;
     document.querySelector('.number').textContent = '?'
     document.querySelector('body').style.backgroundColor = '#222222'
+    document.querySelector('.number').style.width = '15rem'
+
     randomGenerator()
 })
 
